@@ -3,4 +3,8 @@
     <type name="Magento\Catalog\Model\Product">
         <plugin name="training_catalog_product" type="Custom\Module\Plugin\Catalog\Model\Product"/>
     </type>
+    <type name="Magento\Catalog\Block\Product\View">
+        <plugin name="change_product_description" type="Custom\Module\Plugin\Catalog\Model\ProductView"/>
+    </type>
+    
 </config>
