@@ -1,6 +1,0 @@
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <type name="Magento\Catalog\Model\Product">
-        <plugin name="training_catalog_product" type="Custom\Module\Plugin\Catalog\Model\Product"/>
-    </type>
-</config>
